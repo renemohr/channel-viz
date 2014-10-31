@@ -12,13 +12,13 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
-		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+	var defaultKey		= 'QJzmVSF00yC3AGL9RpTT3TCK2gRGGzSXDAUrjwXfLV5QRRL2', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [2138517273], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'Mohr SmartHome', // Replaces Xively logo in the header
+		dataDuration	= '14days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
-		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
-		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
+		dataColor		= 'f1c040', // CSS HEX value of color to represent data (omit leading #)
+		hideForm		= 2; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
 
